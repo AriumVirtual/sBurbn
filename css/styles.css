@@ -45,26 +45,26 @@ body {
 
 
 h1 {
-  font-family: 'Ubuntu' !important;
-  color: #FCF9F9 !important;
+  font-family: 'Ubuntu', sans-serif;
+  color: #FCF9F9;
   font-size: 3rem;
 }
 
 h2 {
-  font-family: 'Montserrat' !important;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 900;
-  color: #7CBD1E !important;
+  color: #7CBD1E;
 }
 
 h3 {
-  font-family: 'Ubuntu' !important;
-  color: #7CBD1E !important;
+  font-family: 'Ubuntu', sans-serif;
+  color: #7CBD1E;
 }
 
 h5 {
-  font-family: 'Montserrat' !important;
-  color: #7CBD1E !important;
+  font-family: 'Montserrat', sans-serif;
+  color: #7CBD1E;
   line-height: 1.5;
 }
 
@@ -149,11 +149,11 @@ p {
 } */
 
 .border-primary {
-    border-color: #7CBD1E !important;
+    border-color: #7CBD1E!important;
 }
 
 .bg-primary {
-    background-color: #7CBD1E !important;
+    background-color: #7CBD1E!important;
 }
 
 /* Meet the Team */
