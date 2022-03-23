@@ -45,25 +45,25 @@ body {
 
 
 h1 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu';
   color: #FCF9F9;
   font-size: 3rem;
 }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-size: 2rem;
   font-weight: 900;
   color: #7CBD1E;
 }
 
 h3 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu';
   color: #7CBD1E;
 }
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   color: #7CBD1E;
   line-height: 1.5;
 }
