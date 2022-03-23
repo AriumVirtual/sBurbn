@@ -149,11 +149,11 @@ p {
 } */
 
 .border-primary {
-    border-color: #7CBD1E;
+    border-color: #7CBD1E!important;
 }
 
 .bg-primary {
-    background-color: #7CBD1E;
+    background-color: #7CBD1E!important;
 }
 
 /* Meet the Team */
