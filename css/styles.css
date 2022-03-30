@@ -16,6 +16,8 @@ h2 {
   font-size: 2rem;
   font-weight: 900;
   color: #7CBD1E;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h3 {
