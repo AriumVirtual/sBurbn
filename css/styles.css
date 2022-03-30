@@ -281,6 +281,8 @@ p {
 /* cta */
 #cta {
   background-color: #7CBD1E;
+  padding: 30px;
+  text-align: center;
 }
 
 .action {
