@@ -16,7 +16,7 @@ h2 {
   font-size: 2rem;
   font-weight: 900;
   color: #7CBD1E;
-  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -136,8 +136,6 @@ p {
 /* Meet the Team */
 #team {
   padding-top: 3%;
-  font-family: 'Ubuntu', sans-serif;
-  text-align: center;
 }
 
 .our-team {
@@ -231,7 +229,7 @@ p {
   display: block;
   padding: 10px;
   font-size: 17px;
-  color: white;
+  color: #fff;
   transition: all 0.3s ease 0s;
   text-decoration: none;
 }
