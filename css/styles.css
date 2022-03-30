@@ -1,9 +1,44 @@
 body {
   font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: #7CBD1E;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #7CBD1E;
+}
+
+h3 {
+  color: #7CBD1E;
+}
+
+h5 {
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Heading */
+
+.main-heading {
+  font-family: 'Ubuntu', sans-serif;
+  color: #FCF9F9;
+  font-size: 3rem;
 }
 
 /* Navigation Bar */
-
 .navbar-brand {
   color: #FFFFFF;
   font-size: 1.5rem;
@@ -23,14 +58,17 @@ body {
 }
 
 /* Download Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
-
 #title {
   background-color: #7CBD1E;
+  text-align: left;
+}
+
+.navbar-toggler-icon {
+  color: #406882;
 }
 
 .container-fluid {
@@ -39,47 +77,41 @@ body {
 
 .cover-pic {
   border-radius: 5%;
-  width: 400px;;
+  width: 450px;
   margin: auto auto 10px auto;
+  /* position: absolute; */
 }
 
+/* Phone version */
 
-h1 {
-  font-family: 'Ubuntu', sans-serif;
-  color: #FCF9F9;
-  font-size: 3rem;
+@media (max-width: 900px) {
+  #title {
+    background-color: #7CBD1E;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .cover-pic {
+    border-radius: 100%;
+    width: 300px;
+    margin: auto auto 10px auto;
+    /* position: absolute; */
+  }
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
-  font-weight: 900;
-  color: #7CBD1E;
-}
-
-h3 {
-  font-family: 'Ubuntu', sans-serif;
-  color: #7CBD1E;
-}
-
-h5 {
-  font-family: 'Montserrat', sans-serif;
-  color: #7CBD1E;
-  line-height: 1.5;
-}
-
-p {
-  color: #8f8f8f;
-}
 
 /* Features Section */
-
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  /* position: relative;
+  z-index: 1; */
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
 }
 
@@ -93,9 +125,7 @@ p {
 }
 
 /* Testimonial Section */
-
 #testimonials {
-  text-align: center;
   background-color: #406882;
   color: #fff;
 }
@@ -113,7 +143,6 @@ p {
 
 #press {
   background-color: #406882;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -122,44 +151,8 @@ p {
   margin: 20px 20px 50px;
 }
 
-/* Pricing */
-
-#pricing {
-  text-align: center;
-  padding-top: 3%;
-}
-
-.card-title {
-  margin-bottom: 0.5rem;
-}
-
-.btn-primary {
-    color: #fff;
-    background-color: #7CBD1E;
-    border-color: #7CBD1E;
-}
-
-.btn-outline-primary {
-    color: #7CBD1E;
-    border-color: #7CBD1E;
-}
-
-/* .w-100:hover {
-  color: #406882;
-} */
-
-.border-primary {
-    border-color: #7CBD1E!important;
-}
-
-.bg-primary {
-    background-color: #7CBD1E!important;
-}
-
 /* Meet the Team */
-
 #team {
-  text-align: center;
   padding-top: 3%;
 }
 
@@ -167,7 +160,6 @@ p {
   padding: 30px 0 40px;
   margin-bottom: 30px;
   background-color: #f7f5ec;
-  text-align: center;
   overflow: hidden;
   position: relative;
 }
@@ -265,15 +257,55 @@ p {
   background-color: #f7f5ec;
 }
 
+/* Pricing */
+#pricing {
+  padding-top: 3%;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+/* .pricing-card-title {
+  font-size: 2rem;
+  font-weight: 900;
+} */
+
+.manor-text {
+  color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #7CBD1E;
+  border-color: #7CBD1E;
+}
+
+.btn-outline-primary {
+  color: #7CBD1E;
+  border-color: #7CBD1E;
+}
+
+/* .w-100:hover {
+  color: #406882;
+} */
+.border-primary {
+  border-color: #7CBD1E !important;
+}
+
+.bg-primary {
+  background-color: #7CBD1E !important;
+}
+
 
 /* cta */
-
 #cta {
   background-color: #7CBD1E;
 }
 
 .action {
   padding-top: 30px;
+  color: #fff;
 }
 
 .cta-pic {
@@ -283,8 +315,28 @@ p {
 }
 
 /* footer */
-
 #footer {
   background-color: #406882;
   padding: 10px auto 5px;
+}
+
+
+/* Phone version */
+
+@media (max-width: 900px) {
+  #title {
+    background-color: #7CBD1E;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .cover-pic {
+    border-radius: 100%;
+    width: 300px;
+    margin: auto auto 10px auto;
+    /* position: absolute; */
+  }
 }
