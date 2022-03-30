@@ -82,26 +82,6 @@ p {
   /* position: absolute; */
 }
 
-/* Phone version */
-
-@media (max-width: 900px) {
-  #title {
-    background-color: #7CBD1E;
-    text-align: center;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  .cover-pic {
-    border-radius: 100%;
-    width: 300px;
-    margin: auto auto 10px auto;
-    /* position: absolute; */
-  }
-}
-
 
 /* Features Section */
 #features {
